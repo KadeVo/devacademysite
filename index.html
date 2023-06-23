@@ -4,14 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
     <title>My Blog</title>
 </head>
 
 <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1>
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <div id="header">
+        <h1>Kia ora Taiao! (Hello World!)</h1>
+    </div>
+    <div class="box">
+        <p class="rightalign"> This is the beginning of my website home page.</p>
+        <p>
+            This will <span>eventually</span> contain a list of links to all my blogs.
+        </p>
+
+        <br>
+        <p id="playground"> The purpose of this blog is for it to be like my playground where I test code and reflect
+            back
+            on it. </p>
+
+        <h2> My current links:</h2>
+        <ul>
+            <a href="blog/te-houtaewa-template.html">
+                <li> te-houtaewa-template.html</li>
+            </a>
+        </ul>
+    </div>
+    <div class="box">
+        <h2> This section will contain some of my photography!</h2>
+        <a href="images/vn.jpg">
+            <img src="images/vn.jpg" alt="VN" class="image-size">
+        </a>
+        <br>
+        <a href="images/fixed.jpg">
+            <img src="images/fixed.jpg" alt="stairs" class="image-size">
+        </a>
+    </div>
 </body>
 
 </html>
