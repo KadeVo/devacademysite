@@ -9,58 +9,59 @@
 </head>
 
 <body>
-    <div id="header">
+    <header id="header">
         <h1>Kia ora Taiao! (Hello World!)</h1>
-    </div>
-    <div class="box">
-        <p class="rightalign"> This is the beginning of my website home page.</p>
-        <p>
-            This will <span>eventually</span> contain a list of links to all my blogs.
-        </p>
+    </header>
+    <main>
+        <section class="box">
+            <p class="right-align">This is the beginning of my website's home page.</p>
+            <p>
+                This will <strong>eventually</strong> contain a list of links to all my blogs.
+            </p>
+            <p id="playground">The purpose of this blog is for it to be like my playground where I test code and reflect
+                back on it. This page will contain the content of the following topic: What is the difference between
+                Margin, Border, and Padding?</p>
 
-        <br>
-        <p id="playground"> The purpose of this blog is for it to be like my playground where I test code and reflect
-            back
-            on it. This page will contain the content of the following topic: What is the difference between Margin,
-            Border, and Padding?</p>
+            <h2>What is the difference between Margin, Border, and Padding?</h2>
+            <ul>
+                <li>
+                    <strong>Margin:</strong> Margins are the transparent spaces around an element, outside of its
+                    border. They create space between the element and its neighboring elements. Margins do not have a
+                    background color or content and are used for visual separation or to control the positioning of
+                    elements. Margin values can be set in CSS to specify the amount of space desired around an element.
+                </li>
+                <li>
+                    <strong>Border:</strong> The border is a visible line or area that surrounds an element, enclosing
+                    its content and padding. It is located immediately outside the margin. Borders can be customized in
+                    terms of thickness, style, and color using CSS properties. They provide a visual distinction between
+                    the element and its surroundings.
+                </li>
+                <li>
+                    <strong>Padding:</strong> Padding refers to the space between the content of an element and its
+                    border. It is the area inside the border and outside the content. Padding is used to create space
+                    between the content and the border, allowing for breathing room and separation. Padding values can
+                    also be defined using CSS, allowing you to specify the amount of space desired around the content.
+                </li>
+            </ul>
 
-        <ul>
-            <li> Margin: Margins are the transparent spaces around an element, outside of its border. They create space
-                between the element and its neighboring elements. Margins do not have a background color or content and
-                are used for visual separation or to control the positioning of elements. Margin values can be set in
-                CSS to specify the amount of space desired around an element.</li>
-            <li> Border: The border is a visible line or area that surrounds an element, enclosing its content and
-                padding. It is located immediately outside the margin. Borders can be customized in terms of thickness,
-                style, and color using CSS properties. They provide a visual distinction between the element and its
-                surroundings. </li>
-            <li> Padding: Padding refers to the space between the content of an element and its border. It is the area
-                inside the border and outside the content. Padding is used to create space between the content and the
-                border, allowing for breathing room and separation. Padding values can also be defined using CSS,
-                allowing you to specify the amount of space desired around the content.</li>
-
-        <h2> My current links:</h2>
-        <ul>
-            <a href="blog/te-houtaewa-template.html">
-                <li> te-houtaewa-template.html</li>
-            </a
-            <a href="blog/identity-values.html">
-                <li> identity-values.html</li>
+            <h2>My current links:</h2>
+            <ul>
+                <li><a href="blog/te-houtaewa-template.html">te-houtaewa-template.html</a></li>
+                <li><a href="blog/identity-values.html">identity-values.html</a></li>
+                <li><a href="blog/learning-plan.html">learning-plan.html</a></li>
+            </ul>
+        </section>
+        <section class="box">
+            <h2>This section will contain some of my photography!</h2>
+            <a href="images/vn.jpg">
+                <img src="images/vn.jpg" alt="VN" class="image-size">
             </a>
-            <a href="blog/learning-plan.html">
-                <li> learning-plan.html</li>
+            <br>
+            <a href="images/fixed.jpg">
+                <img src="images/fixed.jpg" alt="stairs" class="image-size">
             </a>
-        </ul>
-    </div>
-    <div class="box">
-        <h2> This section will contain some of my photography!</h2>
-        <a href="images/vn.jpg">
-            <img src="images/vn.jpg" alt="VN" class="image-size">
-        </a>
-        <br>
-        <a href="images/fixed.jpg">
-            <img src="images/fixed.jpg" alt="stairs" class="image-size">
-        </a>
-    </div>
+        </section>
+    </main>
 </body>
 
 </html>
