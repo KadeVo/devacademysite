@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <title>HTML & CSS</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>HTML & CSS</h1>
+        
+        <h2>My current links:</h2>
+        <ul class="navbar">
+            <li><a href="../index.html" class="link">Home Page</a></li>
+            <li><a href="blog/te-houtaewa-template.html" class="link">Te Houtaewa</a></li>
+            <li><a href="blog/identity-values.html" class="link">Identity Values</a></li>
+            <li><a href="blog/learning-plan.html" class="link">Learning Plan</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="box">
+
+            <p>The purpose of this blog is for it to be like my playground where I test code and reflect
+                back on it. This page will contain the content of the following topic: What is the difference between
+                Margin, Border, and Padding?</p>
+
+            <h2>What is the difference between Margin, Border, and Padding?</h2>
+            <ul>
+                <li>
+                    <strong>Margin:</strong> Margins are the transparent spaces around an element, outside of its
+                    border. They create space between the element and its neighboring elements. Margins do not have a
+                    background color or content and are used for visual separation or to control the positioning of
+                    elements. Margin values can be set in CSS to specify the amount of space desired around an element.
+                    <br>
+                    <div class="example-margin">Example Margin</div>
+                </li>
+                <li>
+                    <strong>Border:</strong> The border is a visible line or area that surrounds an element, enclosing
+                    its content and padding. It is located immediately outside the margin. Borders can be customized in
+                    terms of thickness, style, and color using CSS properties. They provide a visual distinction between
+                    the element and its surroundings.
+                    <br>
+                    <div class="example-border">Example Border</div>
+                </li>
+                <li>
+                    <strong>Padding:</strong> Padding refers to the space between the content of an element and its
+                    border. It is the area inside the border and outside the content. Padding is used to create space
+                    between the content and the border, allowing for breathing room and separation. Padding values can
+                    also be defined using CSS, allowing you to specify the amount of space desired around the content.
+                    <br>
+                    <div class="example-padding">Example Padding</div>
+                </li>
+            </ul>
+    </main>
+</body>
+
+</html>
