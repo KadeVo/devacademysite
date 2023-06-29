@@ -96,10 +96,7 @@ a {
     background-color: #ddd;
 }
 
-.navbar li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+
 
 .example-padding {
     padding: 20px;
