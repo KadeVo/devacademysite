@@ -31,7 +31,7 @@ main {
     text-align: right;
 }
 
-#playground {
+p {
     font-size: 18px;
 }
 
@@ -66,23 +66,41 @@ a {
     background-color: #f1f1f1;
 }
 
-.example-padding {
-    padding: 20px;
-    background-color: #e6edfa;
-}
-
 .example-border {
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #e6edfa;
 }
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
 
-.link {
-    color: #1a0909;
-    font-weight: bold;
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-.link:hover {
-    text-decoration: underline;
+.navbar li a:hover {
+    background-color: #ddd;
+}
+
+.navbar li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.example-padding {
+    padding: 20px;
+    background-color: #f1f1f1;
 }
