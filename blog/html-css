@@ -14,9 +14,10 @@
         
         <h2>My current links:</h2>
         <ul class="navbar">
-            <li><a href="blog/te-houtaewa-template.html" class="link">te-houtaewa-template.html</a></li>
-            <li><a href="blog/identity-values.html" class="link">identity-values.html</a></li>
-            <li><a href="blog/learning-plan.html" class="link">learning-plan.html</a></li>
+            <li><a href="../index.html" class="link">Home Page</a></li>
+            <li><a href="blog/te-houtaewa-template.html" class="link">Te Houtaewa</a></li>
+            <li><a href="blog/identity-values.html" class="link">Identity Values</a></li>
+            <li><a href="blog/learning-plan.html" class="link">Learning Plan</a></li>
         </ul>
     </header>
     <main>
