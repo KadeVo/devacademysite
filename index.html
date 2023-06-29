@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,53 +9,43 @@
 </head>
 
 <body>
-    <div id="header">
+    <header id="header">
         <h1>Kia ora Taiao! (Hello World!)</h1>
-    </div>
-    <div class="box">
-        <p class="rightalign"> This is the beginning of my website home page.</p>
-        <p>
-            This will <span>eventually</span> contain a list of links to all my blogs.
-        </p>
 
-        <br>
-        <p id="playground"> The purpose of this blog is for it to be like my playground where I test code and reflect
-            back
-            on it. This page will contain the content of the following topic: What is the difference between Margin,
-            Border, and Padding?</p>
-
-        <ul>
-            <li> Margin: Margins are the transparent spaces around an element, outside of its border. They create space
-                between the element and its neighboring elements. Margins do not have a background color or content and
-                are used for visual separation or to control the positioning of elements. Margin values can be set in
-                CSS to specify the amount of space desired around an element.</li>
-            <li> Border: The border is a visible line or area that surrounds an element, enclosing its content and
-                padding. It is located immediately outside the margin. Borders can be customized in terms of thickness,
-                style, and color using CSS properties. They provide a visual distinction between the element and its
-                surroundings. </li>
-            <li> Padding: Padding refers to the space between the content of an element and its border. It is the area
-                inside the border and outside the content. Padding is used to create space between the content and the
-                border, allowing for breathing room and separation. Padding values can also be defined using CSS,
-                allowing you to specify the amount of space desired around the content.</li>
+        <h2>My current links:</h2>
+        <ul class="navbar">
+            <li><a href="blog/te-houtaewa-template.html" class="link">Te-Houtaewa</a></li>
+            <li><a href="blog/identity-values.html" class="link">Identity Values.</a></li>
+            <li><a href="blog/learning-plan.html" class="link">Learning Plan</a></li>
+            <li><a href="blog/html-css" class="link">HTML & CSS exercise</a></li>
         </ul>
-        </p>
-        <h2> My current links:</h2>
-        <ol>
-            <a href="blog/te-houtaewa-template.html">
-                <li> te-houtaewa-template.html</li>
+    </header>
+    <main>
+        <section class="box">
+            <p>This is the beginning of my website's home page .</p>
+            <br>
+            <h2> About Me</h2>
+            <p> My name Is Kadin Vo, I am 23 years old and have graduated with a Bachelors of Business from AUT,
+                majoring in Marketing and minor with Business Law.
+                I decided to go to Dev Academy as I found a passion for coding during my own self study and found it
+                more enjoyable than what I studied at University.
+                As time goes on, I hope I can become good enough to make this blog more professional and appealing to
+                all.
+            </p>
+        </section>
+        <section class="box">
+            <h2>This section will contain some of my photography!</h2>
+            <a href="images/vn.jpg">
+                <img src="images/vn.jpg" alt="VN" class="image-size">
             </a>
-        </ol>
-    </div>
-    <div class="box">
-        <h2> This section will contain some of my photography!</h2>
-        <a href="images/vn.jpg">
-            <img src="images/vn.jpg" alt="VN" class="image-size">
-        </a>
-        <br>
-        <a href="images/fixed.jpg">
-            <img src="images/fixed.jpg" alt="stairs" class="image-size">
-        </a>
-    </div>
+            <br>
+            <a href="images/fixed.jpg">
+                <img src="images/fixed.jpg" alt="stairs" class="image-size">
+            </a>
+            <br>
+
+        </section>
+    </main>
 </body>
 
 </html>
